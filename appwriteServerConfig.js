@@ -1,6 +1,5 @@
 // Importing required modules and dotenv package
 import { Client, Users, Account } from "node-appwrite";
-
 // Init SDK
 const client = new Client()
   .setEndpoint("https://cloud.appwrite.io/v1") // Setting your Appwrite endpoint from env var
